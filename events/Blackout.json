@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Enable Blackout",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        {
+            "name": "Hide HUD",
+            "type": "Bool",
+            "defaultValue": true
+        }
+    ]
+}

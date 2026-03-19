@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/oxipng/oxipng
+    rev: v9.1.5
+    hooks:
+      - id: oxipng
+        args: ["--zopfli", "--opt", "max", "--strip", "safe", "--alpha"]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: check-case-conflict
+      - id: check-symlinks
+      - id: check-json
+      - id: check-xml
+      - id: destroyed-symlinks
+      # -   id: ...

@@ -1,0 +1,19 @@
+{
+    "params": [
+        {
+            "name": "Stage",
+            "type": "String",
+            "defaultValue": "stage"
+        },
+        {
+            "name": "Delete Current Stage",
+            "type": "Bool",
+            "defaultValue": false
+        },
+        {
+            "name": "Preload",
+            "type": "Bool",
+            "defaultValue": false
+        }
+    ]
+}
