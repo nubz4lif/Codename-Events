@@ -25,7 +25,6 @@ function unBlackout() {
 function onEvent(e) {
     if (e.event.name == "Blackout") {
         var params:Array = e.event.params;
-        trace(params[1] == false);
         params[0] == true ? blackOut(!(params[1] == true)) : unBlackout();
     }
 }
